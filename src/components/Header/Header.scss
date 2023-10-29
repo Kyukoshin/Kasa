@@ -1,0 +1,9 @@
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+
+  img{
+    width: clamp(125px, 12vw, 175px);
+    }
+}

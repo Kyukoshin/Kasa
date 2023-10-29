@@ -1,0 +1,39 @@
+@import "../components/Banner/Banner.scss";
+@import "../components/Card/Card.scss";
+@import "../components/Carousel/Carousel.scss";
+@import "../components/Collapse/Collapse.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Header/Header.scss";
+@import "../components/Nav/Nav.scss";
+@import "../components/Owner/Owner.scss";
+@import "../components/Rating/Rating.scss";
+@import "../components/Tags/Tags.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.app{
+  margin: 0 auto;
+
+  padding: 0 2em;
+  position: relative;
+  min-height: 97.5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  max-width: 1225px;
+  margin: 0 auto;
+  width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 845px) {
+  .app{  
+    padding: 0 2em;
+  }
+}

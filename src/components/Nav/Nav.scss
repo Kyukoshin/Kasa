@@ -1,0 +1,18 @@
+.nav_wrap{
+  display: flex;  
+  list-style-type: none;
+  gap: 3vw;
+  align-items: center; 
+}
+  
+.nav_link{  
+    text-decoration: none;
+    color: #FF6060;
+    font-size: clamp(12px, 3vw, 25px);
+
+    &:hover{
+      text-decoration: underline;
+    }
+} 
+
+

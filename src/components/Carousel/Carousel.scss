@@ -1,0 +1,38 @@
+.carousel_wrap {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 415px;
+  width: 100%; 
+  overflow: hidden;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  border-radius: 20px;
+  margin: 2em 0;
+
+  &img {
+  object-fit: fill;
+  filter: blur(5);
+}}
+
+.arrow_right{
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  width: clamp(25px, 3vw, 40px);
+}
+
+.arrow_left{
+  position: absolute;
+  left: 15px;
+  cursor: pointer;
+  width: clamp(25px, 3vw, 40px);
+}
+
+@media screen and (max-width: 845px) {
+  .carousel_wrap {
+    height: 255px;
+  }
+}
+
