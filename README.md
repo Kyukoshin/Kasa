@@ -1,2 +1,2 @@
 # Kasa
-Created with CodeSandbox
+React project for Openclassroom course
