@@ -20,6 +20,7 @@ export default function Carousel({ slides }) {
 
   return (
     <div className="carousel_wrap">
+      <p className="counter">{displayedSlide + 1} / {length}</p>
       {length > 1 && (
         <img
           src={left}
@@ -29,7 +30,7 @@ export default function Carousel({ slides }) {
         />
       )}
       <div className="slide">
-        <p>Slide {displayedSlide + 1} of {length}</p>
+        
         <img src={slides[displayedSlide]} alt={`Slide ${displayedSlide + 1}`} />
       </div>
       {length > 1 && (

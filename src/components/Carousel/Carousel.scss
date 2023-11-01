@@ -12,10 +12,17 @@
   margin: 2em 0;
 
   &img {
-  object-fit: fill;
-  filter: blur(5);
-}}
+    object-fit: fill;
+    filter: blur(5);
+  }
+}
 
+.counter{
+  color: white;
+  position: absolute;
+  bottom: 15px;
+
+}
 .arrow_right{
   position: absolute;
   right: 15px;
