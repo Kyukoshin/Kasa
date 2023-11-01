@@ -29,6 +29,7 @@ export default function Carousel({ slides }) {
         />
       )}
       <div className="slide">
+        <p>Slide {displayedSlide + 1} of {length}</p>
         <img src={slides[displayedSlide]} alt={`Slide ${displayedSlide + 1}`} />
       </div>
       {length > 1 && (

@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner/Banner";
 import Collapse from "../../components/Collapse/Collapse";
-import about from "../../../public/about.json";
+import about from "../../data/about.json";
 import "../About/About.scss";
 import { Suspense } from "react";
 
